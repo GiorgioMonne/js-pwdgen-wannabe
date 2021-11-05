@@ -13,6 +13,10 @@ let a = '21';
 let b = '@gmail';
 let c = '.com';
 
+let password = 'password: ' + Nome + Cognome + ColoreP + a;
+document.getElementById('password').innerHTML = password;
+console.log(password);
+
 let email = 'Email: ' + Nome + Cognome + ColoreP + a + b + c;
 document.getElementById('email').innerHTML = email;
 console.log(email);
